@@ -19,7 +19,7 @@ function generatePassword() {
   console.log("Clicked")
   var criteria = alert("Please meet the following criteria:Length of at least 8 characters and no more than 128 character, include lowercase, uppercase, numeric, and/or special characters ");
 
-  criteria = prompt("How Many Characts will you need? Please enter a number between 8-128")
+  criteria = prompt("How Many Characters will you need? Please enter a number between 8-128")
   if (criteria >= 8 && criteria <= 128) {
     var islowercase = confirm("Do you need a lower case letter?")
     var isuppercase = confirm("Do you need an Upper case letter?")
@@ -47,7 +47,7 @@ function generatePassword() {
     }
   }
   else {
-    alert(" Lenght must be between 8-128 characters");
+    alert("Length must be between 8-128 characters");
   }
 
 
